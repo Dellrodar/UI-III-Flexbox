@@ -176,9 +176,7 @@ header nav a {
 }
 
 header nav img {
-    margin-left: 0%;
     height: auto;
-    border: 1px black;
 }
 
 .section-one {
@@ -197,10 +195,19 @@ header nav img {
 
 .section-one img {
     vertical-align: middle;
+    padding: 30px 0;
 }
 
 h1 {
     font-size: 72px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 24px;
 }
 
 .section-one button {
@@ -210,24 +217,25 @@ h1 {
 }
 
 .section-two {
-    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
     width: 100%;
 }
 
 .section-two div {
-    display: inline-block;
     max-width: 49%;
     padding: 2%;
 }
 
 .section-three {
-    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
     width: 100%;
     padding-bottom: 5px;
 }
 
 .section-three div {
-    display: inline-block;
+    text-align: left;
     max-width: 32%;
     padding: 2%;
 }
@@ -239,4 +247,82 @@ h1 {
 footer {
     padding-top: 20px;
     text-align: center;
+}
+
+.services-header-img {
+    width:100%;
+}
+
+.services-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    
+}
+
+.services-options div {
+    display: flex;
+    max-width: 48%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+    padding: 15px;
+    margin: 10px 0;
+    background-color:gainsboro ;
+    border:2px solid black;
+}
+
+.services-options button {
+    height: 30px;
+    width: 160px;
+    margin: 15px;
+    border: 1px solid black;
+}
+
+.services-section-one {
+    margin: 20px 2px;
+}
+
+.services-section-facts {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.services-section-facts div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    text-align: left;
+    max-width: 48%;
+    margin: 25px 25px;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0 20px;
+    line-height: 30px;
+  }
+
+.services-footer {
+    text-align: center;
+    margin: 50px;
+}
+
+.services-info-img {
+    width: auto;
+}
+
+services.header{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+services.header img {
+    height: fit-content;
+    vertical-align: middle;
 }
